@@ -1,1 +1,4 @@
 C:\Users\Sandhya\Downloads\apache-tomcat-9.0.82-windows-x64\apache-tomcat-9.0.82
+<role rolename="admin-gui"/>
+  <role rolename="manager-gui"/>
+<user username="tomcat" password="tomcat" roles="manager-gui,admin-gui,manager-script,manager-jmx,manager-status " />
